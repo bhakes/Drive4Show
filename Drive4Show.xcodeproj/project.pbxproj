@@ -15,6 +15,12 @@
 		D1823D8422B40342002C1C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1823D8222B40342002C1C89 /* LaunchScreen.storyboard */; };
 		D1823D8F22B40343002C1C89 /* Drive4ShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1823D8E22B40343002C1C89 /* Drive4ShowTests.swift */; };
 		D1823D9A22B40343002C1C89 /* Drive4ShowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1823D9922B40343002C1C89 /* Drive4ShowUITests.swift */; };
+		D1823DA922B40975002C1C89 /* AccessRights.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1823DA822B40975002C1C89 /* AccessRights.swift */; };
+		D1823DAB22B40DF7002C1C89 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1823DAA22B40DF7002C1C89 /* VideoController.swift */; };
+		D1823DB022B41815002C1C89 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1823DAF22B41815002C1C89 /* Functional.swift */; };
+		D1823DB222B41828002C1C89 /* UIKitStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1823DB122B41828002C1C89 /* UIKitStyles.swift */; };
+		D1823DB622B421F4002C1C89 /* VideoCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1823DB522B421F4002C1C89 /* VideoCaptureViewController.swift */; };
+		D1823DB822B445AF002C1C89 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1823DB722B445AF002C1C89 /* PreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		D1823D9522B40343002C1C89 /* Drive4ShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Drive4ShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1823D9922B40343002C1C89 /* Drive4ShowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drive4ShowUITests.swift; sourceTree = "<group>"; };
 		D1823D9B22B40343002C1C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1823DA822B40975002C1C89 /* AccessRights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessRights.swift; sourceTree = "<group>"; };
+		D1823DAA22B40DF7002C1C89 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
+		D1823DAF22B41815002C1C89 /* Functional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functional.swift; sourceTree = "<group>"; };
+		D1823DB122B41828002C1C89 /* UIKitStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitStyles.swift; sourceTree = "<group>"; };
+		D1823DB522B421F4002C1C89 /* VideoCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureViewController.swift; sourceTree = "<group>"; };
+		D1823DB722B445AF002C1C89 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +111,14 @@
 		D1823D7522B40340002C1C89 /* Drive4Show */ = {
 			isa = PBXGroup;
 			children = (
+				D1823DBB22B4555B002C1C89 /* ViewControllers */,
+				D1823DBA22B4554F002C1C89 /* Controllers */,
+				D1823DB922B45545002C1C89 /* Views */,
+				D1823DAE22B417B8002C1C89 /* FunctionalHelpers */,
+				D1823DA722B4095B002C1C89 /* AccessRights */,
 				D1823D7622B40340002C1C89 /* AppDelegate.swift */,
-				D1823D7822B40340002C1C89 /* ViewController.swift */,
-				D1823D7A22B40340002C1C89 /* Main.storyboard */,
 				D1823D8022B40342002C1C89 /* Assets.xcassets */,
+				D1823D7A22B40340002C1C89 /* Main.storyboard */,
 				D1823D8222B40342002C1C89 /* LaunchScreen.storyboard */,
 				D1823D8522B40342002C1C89 /* Info.plist */,
 				D1823D7D22B40340002C1C89 /* Drive4Show.xcdatamodeld */,
@@ -126,6 +142,48 @@
 				D1823D9B22B40343002C1C89 /* Info.plist */,
 			);
 			path = Drive4ShowUITests;
+			sourceTree = "<group>";
+		};
+		D1823DA722B4095B002C1C89 /* AccessRights */ = {
+			isa = PBXGroup;
+			children = (
+				D1823DA822B40975002C1C89 /* AccessRights.swift */,
+			);
+			path = AccessRights;
+			sourceTree = "<group>";
+		};
+		D1823DAE22B417B8002C1C89 /* FunctionalHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				D1823DAF22B41815002C1C89 /* Functional.swift */,
+				D1823DB122B41828002C1C89 /* UIKitStyles.swift */,
+			);
+			path = FunctionalHelpers;
+			sourceTree = "<group>";
+		};
+		D1823DB922B45545002C1C89 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D1823DB722B445AF002C1C89 /* PreviewView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D1823DBA22B4554F002C1C89 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1823DAA22B40DF7002C1C89 /* VideoController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D1823DBB22B4555B002C1C89 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1823D7822B40340002C1C89 /* ViewController.swift */,
+				D1823DB522B421F4002C1C89 /* VideoCaptureViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +317,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1823DAB22B40DF7002C1C89 /* VideoController.swift in Sources */,
+				D1823DB022B41815002C1C89 /* Functional.swift in Sources */,
+				D1823DA922B40975002C1C89 /* AccessRights.swift in Sources */,
 				D1823D7F22B40340002C1C89 /* Drive4Show.xcdatamodeld in Sources */,
 				D1823D7922B40340002C1C89 /* ViewController.swift in Sources */,
+				D1823DB822B445AF002C1C89 /* PreviewView.swift in Sources */,
 				D1823D7722B40340002C1C89 /* AppDelegate.swift in Sources */,
+				D1823DB222B41828002C1C89 /* UIKitStyles.swift in Sources */,
+				D1823DB622B421F4002C1C89 /* VideoCaptureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

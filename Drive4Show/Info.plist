@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>&quot;The app needs access to the Camera in order to record swings.&quot;</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>&quot;The app needs access to the Microphone in order to optimize swing analysis.&quot;</string>
 </dict>
 </plist>
